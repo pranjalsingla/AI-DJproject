@@ -1,8 +1,7 @@
 .heading{
-    font-size: 27px;
+    font-size: 23px;
     width: 100%;
     margin: 0px;
-    box-shadow: 5px 5px 5px grey;
 }
 .note{
     font-size:15px;
@@ -11,13 +10,25 @@
 body{
     background-size: cover;
 }
-#song{
+.div_speed{
+    float: left;
+}
+.div_speed_image,.div_volume_image{
+    width: 200px;
+    border-radius: 100px;
+}
+#speed,#volume{
+    font-size: 23px;
+    margin: 15px;
+}
+.div_volume{
+    float: right;
+}
+.play_button{
+    width: 130px;
     font-size: 25px;
-    margin: 15px;   
 }
 canvas{
-    border: 5px solid white;
+    border: 5px solid whitesmoke;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px grey;
-    margin-top: 25px;
 }
